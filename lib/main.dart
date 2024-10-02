@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_application/Screens/Homepage.dart';
 
 void main(){
   runApp(MyApp());
@@ -10,12 +11,9 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    int age = 30;
     return MaterialApp(
-      home: Center(
-        child: Container(
-          child: Text("welcome"),
-        ),
-      ),
+      home: HomePage()
     );
    
   
